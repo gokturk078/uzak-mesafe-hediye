@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Her kilometre, her saniye sana değer. Uzak mesafe aşkımızın hikayesi.">
+    <meta property="og:title" content="Her Kilometre, Her Saniye Sana Değer 💕">
+    <meta property="og:description" content="Mesafe sadece bir sayı, aşkımız sonsuza dek.">
+    <meta property="og:image" content="images/02_hero_video_call.png">
+    <title>💕 Her Kilometre, Her Saniye Sana Değer</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Montserrat:wght@300;400;600;700&family=Lato:wght@300;400;700&family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ==================== NAVIGATION ==================== -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">💕</a>
+            <ul class="nav-links">
+                <li><a href="#story">Hikayemiz</a></li>
+                <li><a href="#distance-map">Mesafe</a></li>
+                <li><a href="#gallery">Anlar</a></li>
+                <li><a href="#messages">Mesajlar</a></li>
+                <li><a href="#countdown">Sayaç</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero" class="hero-section">
+        <div class="hero-background">
+            <div class="floating-hearts" id="floatingHearts"></div>
+            <div class="hero-overlay"></div>
+            <img src="images/02_hero_video_call.png" alt="Video görüşme anı" class="hero-image">
+        </div>
+        <div class="hero-content">
+            <p class="hero-pretext handwritten fade-in">Sana özel...</p>
+            <h1 class="hero-title">
+                <span class="typing-text" id="typingText"></span>
+                <span class="cursor">|</span>
+            </h1>
+            <p class="hero-subtitle fade-in-delay">Sana Değer</p>
+            
+            <div class="distance-counter fade-in-delay-2">
+                <div class="counter-item">
+                    <span class="counter-number" id="daysCounter" data-target="0">0</span>
+                    <span class="counter-label">Gün Birlikte</span>
+                </div>
+                <div class="counter-divider">💕</div>
+                <div class="counter-item">
+                    <span class="counter-number">∞</span>
+                    <span class="counter-label">Sevgi</span>
+                </div>
+            </div>
+            
+            <a href="#story" class="scroll-button fade-in-delay-3">
+                <span>Hikayemizi Keşfet</span>
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- ==================== STORY TIMELINE ==================== -->
+    <section id="story" class="story-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">💕</span>
+                Bizim Hikayemiz
+                <span class="title-decoration">💕</span>
+            </h2>
+            <p class="section-subtitle handwritten">Her an seninle daha güzel</p>
+            
+            <div class="timeline">
+                <!-- Timeline Item 1 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span class="date-text">14 Şubat 2024</span>
+                        <span class="date-label">İlk Tanışma</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="images/10_morning_goodnight_ritual.png" alt="İlk tanışma anı">
+                        </div>
+                        <h3>Her Şey Böyle Başladı</h3>
+                        <p>O gün hayatım sonsuza dek değişti. Seninle tanışmak, evrenin bana verdiği en güzel hediyeydi.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 2 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span class="date-text">İlk Video Görüşme</span>
+                        <span class="date-label">Kalpler Birleşiyor</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="images/02_hero_video_call.png" alt="İlk video görüşme">
+                        </div>
+                        <h3>Seni İlk Gördüğüm An</h3>
+                        <p>Ekranda belirdiğinde kalbim nasıl çarptı bilemezsin. O gülümsemen hala gözlerimin önünde.</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 3 -->
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-marker">
+                        <i class="fas fa-heart-pulse"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span class="date-text">İlk "Seni Seviyorum"</span>
+                        <span class="date-label">Sonsuza Dek</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="images/08_handwritten_letter_closeup.png" alt="İlk seni seviyorum">
+                        </div>
+                        <h3>Kalbimi Sana Açtım</h3>
+                        <p>O kelimeleri söylemek için ne kadar heyecanlı olduğumu hatırlıyorum. Ve sen de aynı şeyi söyledin...</p>
+                    </div>
+                </div>
+                
+                <!-- Timeline Item 4 -->
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-marker">
+                        <i class="fas fa-moon"></i>
+                    </div>
+                    <div class="timeline-date">
+                        <span class="date-text">Gece Sohbetleri</span>
+                        <span class="date-label">Uyumak Yok</span>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-image">
+                            <img src="images/13_rainy_window_voice_note.png" alt="Gece sohbetleri">
+                        </div>
+                        <h3>Saatlerce Konuştuk</h3>
+                        <p>Geceler seninle konuşarak geçti. Uyku tutmadı çünkü seninle olmak daha güzeldi.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== DISTANCE MAP ==================== -->
+    <section id="distance-map" class="distance-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">🗺️</span>
+                Mesafe Sadece Bir Sayı
+                <span class="title-decoration">🗺️</span>
+            </h2>
+            <p class="section-subtitle handwritten">Kalpler her zaman yan yana</p>
+            
+            <div class="map-container">
+                <div class="map-background">
+                    <img src="images/12_map_line_connection.png" alt="Mesafe haritası" class="map-image">
+                </div>
+                
+                <div class="locations-wrapper">
+                    <div class="location location-a">
+                        <div class="location-marker pulse">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="location-info">
+                            <h3>İstanbul</h3>
+                            <p class="time" id="timeA">--:--</p>
+                            <p class="status">Ben buradayım</p>
+                        </div>
+                    </div>
+                    
+                    <div class="distance-line">
+                        <div class="line-path">
+                            <div class="traveling-heart">💕</div>
+                        </div>
+                        <div class="distance-info">
+                            <span class="distance-number">441</span>
+                            <span class="distance-unit">km</span>
+                        </div>
+                    </div>
+                    
+                    <div class="location location-b">
+                        <div class="location-marker pulse">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <div class="location-info">
+                            <h3>Ankara</h3>
+                            <p class="time" id="timeB">--:--</p>
+                            <p class="status">Sen oradasın</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="distance-quote handwritten">"Bu mesafe geçici, ama aşkımız sonsuza dek"</p>
+        </div>
+    </section>
+
+    <!-- ==================== PHOTO GALLERY ==================== -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">📸</span>
+                Her Fotoğraf Bir Hikaye
+                <span class="title-decoration">📸</span>
+            </h2>
+            <p class="section-subtitle handwritten">Anılarımız sonsuza dek yaşayacak</p>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-heart"></i>
+                    <span>Hepsi</span>
+                </button>
+                <button class="filter-btn" data-filter="video-calls">
+                    <i class="fas fa-video"></i>
+                    <span>Video Görüşmeler</span>
+                </button>
+                <button class="filter-btn" data-filter="longing">
+                    <i class="fas fa-cloud-moon"></i>
+                    <span>Özlem</span>
+                </button>
+                <button class="filter-btn" data-filter="together">
+                    <i class="fas fa-heart-circle-check"></i>
+                    <span>Birlikte</span>
+                </button>
+                <button class="filter-btn" data-filter="memories">
+                    <i class="fas fa-camera-retro"></i>
+                    <span>Anılar</span>
+                </button>
+            </div>
+            
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item" data-category="video-calls">
+                    <img src="images/02_hero_video_call.png" alt="Video görüşme anı" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Sevgili Ekran</h3>
+                        <p class="photo-description">Her görüşme bir hediye</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item" data-category="longing">
+                    <img src="images/03_city_lights_distance.png" alt="Şehir ışıkları" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Şehir Işıkları</h3>
+                        <p class="photo-description">Aynı ay altındayız</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item" data-category="together">
+                    <img src="images/05_airport_hug_reunion.png" alt="Havalimanı buluşması" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Kavuşma Anı</h3>
+                        <p class="photo-description">En güzel an</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item" data-category="longing">
+                    <img src="images/06_train_window_thoughtful.png" alt="Tren penceresi" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Seni Düşünürken</h3>
+                        <p class="photo-description">Her yolculukta aklımda sen</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item" data-category="memories">
+                    <img src="images/07_shared_playlist_headphones.png" alt="Ortak playlist" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Müziğimiz</h3>
+                        <p class="photo-description">Aynı şarkılar, iki kalp</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 6 -->
+                <div class="gallery-item" data-category="memories">
+                    <img src="images/08_handwritten_letter_closeup.png" alt="El yazısı mektup" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Sana Yazdım</h3>
+                        <p class="photo-description">Kelimeler kalbimden</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 7 -->
+                <div class="gallery-item" data-category="video-calls">
+                    <img src="images/10_morning_goodnight_ritual.png" alt="Günaydın iyi geceler" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Günaydın & İyi Geceler</h3>
+                        <p class="photo-description">Her günün başı ve sonu sen</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 8 -->
+                <div class="gallery-item" data-category="longing">
+                    <img src="images/13_rainy_window_voice_note.png" alt="Yağmurlu pencere" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Sesini Özledim</h3>
+                        <p class="photo-description">Yağmur yağarken seninle</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Gallery Item 9 -->
+                <div class="gallery-item" data-category="together">
+                    <img src="images/14_final_cinematic_together.png" alt="Birlikte" loading="lazy">
+                    <div class="gallery-overlay">
+                        <h3 class="photo-title">Sonsuza Dek</h3>
+                        <p class="photo-description">Birlikte olacağız</p>
+                        <i class="fas fa-expand-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== MEMORIES WALL ==================== -->
+    <section id="memories" class="memories-section">
+        <div class="container">
+            <h2 class="section-title handwritten">
+                <span class="title-decoration">📷</span>
+                Polaroid Anılarımız
+                <span class="title-decoration">📷</span>
+            </h2>
+            
+            <div class="memories-wall">
+                <div class="polaroid" style="--rotation: -5deg;">
+                    <div class="polaroid-image">
+                        <img src="images/10_morning_goodnight_ritual.png" alt="Günaydın ritüeli">
+                    </div>
+                    <p class="polaroid-caption handwritten">İlk "günaydın"ımız 💕</p>
+                </div>
+                
+                <div class="polaroid" style="--rotation: 3deg;">
+                    <div class="polaroid-image">
+                        <img src="images/02_hero_video_call.png" alt="Video görüşme">
+                    </div>
+                    <p class="polaroid-caption handwritten">Saatlerce konuştuk ✨</p>
+                </div>
+                
+                <div class="polaroid" style="--rotation: -2deg;">
+                    <div class="polaroid-image">
+                        <img src="images/07_shared_playlist_headphones.png" alt="Müzik">
+                    </div>
+                    <p class="polaroid-caption handwritten">Bizim şarkımız 🎵</p>
+                </div>
+                
+                <div class="polaroid" style="--rotation: 4deg;">
+                    <div class="polaroid-image">
+                        <img src="images/05_airport_hug_reunion.png" alt="Kavuşma">
+                    </div>
+                    <p class="polaroid-caption handwritten">O sarılma anı 🤗</p>
+                </div>
+                
+                <div class="polaroid" style="--rotation: -3deg;">
+                    <div class="polaroid-image">
+                        <img src="images/13_rainy_window_voice_note.png" alt="Yağmurda">
+                    </div>
+                    <p class="polaroid-caption handwritten">Yağmurda seninle 🌧️</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LOVE MESSAGES - FLIP CARDS ==================== -->
+    <section id="messages" class="messages-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">💌</span>
+                Sana Özel Mesajlar
+                <span class="title-decoration">💌</span>
+            </h2>
+            <p class="section-subtitle handwritten">Her karta dokun ve oku</p>
+            
+            <div class="message-cards">
+                <!-- Card 1: Seni Neden Seviyorum -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <h3>Seni Neden Seviyorum</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Seni Sevmemin 12 Sebebi</h4>
+                            <ul class="love-reasons">
+                                <li>Gülümsemen tüm kötü günlerimi güzelleştirir</li>
+                                <li>Sesin benim için en güzel melodidir</li>
+                                <li>Saçma şakalarıma gülüşün dünyamı aydınlatır</li>
+                                <li>Beni olduğum gibi kabul edişin</li>
+                                <li>Zor zamanlarda yanımda olman</li>
+                                <li>Küçük şeyleri özel kılman</li>
+                                <li>Gözlerinin içine baktığımda kendimi evimde hissedişim</li>
+                                <li>Sabah ilk mesajın günümü güzelleştirmesi</li>
+                                <li>Benimle aynı saçma şeylere gülmen</li>
+                                <li>Hayallerimi dinleyip desteklemen</li>
+                                <li>3 saat telefonda konuşsak bile sıkılmayışımız</li>
+                                <li>Seni düşünmekten mutlu olabilişim</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 2: Hayalimdeki Geleceğimiz -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-cloud-sun"></i>
+                            </div>
+                            <h3>Hayalimdeki Geleceğimiz</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Seninle Yaşamak İstediğim Hayat</h4>
+                            <div class="future-text">
+                                <p><strong>Sabahlar:</strong> Yan yana uyandığımız, birlikte kahve yudumladığımız sabahlar. Artık ekran değil, gerçek gülümsemen.</p>
+                                <p><strong>Günler:</strong> El ele market alışverişleri, beraber yemek yapıp mutfağı dağıtmamız, aynı kanepede oturup başını omzuma yaslamanı beklediğim anlar.</p>
+                                <p><strong>Akşamlar:</strong> Birlikte film izleyip yorumlar yapmamız, ayaklarının soğuk olduğunu söyleyip bacaklarıma sokman, saçlarını okşarken uyuyakalman.</p>
+                                <p><strong>Gelecek:</strong> Bu mesafe geçici, ama biz sonsuza dek. 💕</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 3: İlk Görüşme -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <h3>İlk Görüşmeyi Hatırlıyor musun?</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Böyle Başladı Her Şey</h4>
+                            <div class="memory-text">
+                                <p>Hatırlıyor musun? İlk konuşmamızı, ilk gülüşmemizi, ilk "iyi geceler"imizi...</p>
+                                <p>O ilk video görüşmede ne kadar heyecanlı olduğumu, ne diyeceğimi düşünürken saatlerce hazırlandığımı hiç söylemedim sana.</p>
+                                <p>İlk "seni seviyorum"umu söylerken kalbimin nasıl çarptığını hala hatırlıyorum. Senin sesindeki mutluluğu, gözlerindeki ışıltıyı...</p>
+                                <p>O günden beri her gün biraz daha çok seviyorum seni. 💕</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 4: Her Zaman Seninleyim -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-hands-holding-heart"></i>
+                            </div>
+                            <h3>Her Zaman Seninleyim</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Mesafe Bizi Ayıramaz</h4>
+                            <div class="support-text">
+                                <p><strong>Mutlu olduğunda:</strong> Mutluluğun benim mutluluğum. Sesindeki heyecanı duyduğumda ben de gülümsüyorum.</p>
+                                <p><strong>Üzgün olduğunda:</strong> Yanında olamıyorum belki, ama her zaman dinliyorum. Her gözyaşın benimki.</p>
+                                <p><strong>Yorgun olduğunda:</strong> Başını omzuma yaslayamıyorum ama sesim kulağında. "Her şey geçecek" diyorum.</p>
+                                <p><strong>Yalnız hissettiğinde:</strong> Telefonu aç, ara. Gece yarısı bile olsa, oradayım. Çünkü sen hiçbir zaman yalnız değilsin. 💕</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 5: Seni Özlediğim Anlar -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-moon"></i>
+                            </div>
+                            <h3>Seni Özlediğim Anlar</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Ne Zaman Özlüyorum?</h4>
+                            <ul class="missing-moments">
+                                <li><strong>Sabah uyandığımda:</strong> Keşke yan tarafımda olsan</li>
+                                <li><strong>Güzel bir şey olduğunda:</strong> İlk paylaşmak istediğim kişi sensin</li>
+                                <li><strong>Geceleri yatağa girdiğimde:</strong> Kollarımın boş olduğunu hissettiğimde</li>
+                                <li><strong>Çiftleri gördüğümde:</strong> Yakında biz de böyle olacağız</li>
+                                <li><strong>Video görüşmesini kapattığımda:</strong> En zor an</li>
+                                <li><strong>Aslında hep:</strong> Her anımda bir yerlerde sen varsın 💕</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 6: Seninle Her Şey Daha Güzel -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-rainbow"></i>
+                            </div>
+                            <h3>Seninle Her Şey Daha Güzel</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Sen Varken</h4>
+                            <div class="beautiful-text">
+                                <p><strong>Müzikler:</strong> Aynı müzikleri dinliyoruz farklı şehirlerde. Her şarkı bize ait artık.</p>
+                                <p><strong>Günler:</strong> Sıradan günler bile özel. Çünkü sonunda sana anlatacağım.</p>
+                                <p><strong>Gelecek:</strong> Artık gelecek korkutucu değil, heyecan verici. Çünkü sen varsın onda.</p>
+                                <p><strong>Mutluluk:</strong> Seninle mutluluğun ne demek olduğunu öğrendim.</p>
+                                <p><strong>Ben:</strong> Seninle daha iyi biriyim. Daha güçlü, daha mutlu, daha umutlu. 💕</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Card 7: Kalbimden Geçenler -->
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope-heart"></i>
+                            </div>
+                            <h3>Kalbimden Geçenler</h3>
+                            <p class="card-hint">Kartı çevir 💕</p>
+                        </div>
+                        <div class="flip-card-back">
+                            <h4>Sana Karşı Duygularım</h4>
+                            <div class="heart-text">
+                                <p>Bazen kelimelere sığmıyor içimdekiler...</p>
+                                <p>Sana ne kadar minnettar olduğumu söylemek istiyorum. Bu mesafeye rağmen benimle olduğun, bana inandığın, bizi seçtiğin için.</p>
+                                <p>Her "seni seviyorum"un benim için bir şansı daha yaşamak demek. Her gülüşün karanlık günlerimi aydınlatıyor.</p>
+                                <p>Biliyorum, zor. Uzakta olmak, sarılamamak, dokunamamak... Ama biliyor musun? Bu bizi daha güçlü yapıyor.</p>
+                                <p>Seni seviyorum. Kilometreler ötesinde, her durumda, her zaman. 💕</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FUTURE DREAMS ==================== -->
+    <section id="future" class="future-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">🌟</span>
+                Birlikte Yapacaklarımız
+                <span class="title-decoration">🌟</span>
+            </h2>
+            <p class="section-subtitle handwritten">Hayallerimiz, planlarımız, geleceğimiz</p>
+            
+            <div class="bucket-list">
+                <div class="bucket-item" data-aos="fade-up">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-plane bucket-icon"></i>
+                        <span class="bucket-text">İlk yurt dışı seyahatimiz</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-home bucket-icon"></i>
+                        <span class="bucket-text">Birlikte yaşayacağımız ev</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-utensils bucket-icon"></i>
+                        <span class="bucket-text">Beraber yemek yapmak</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-couch bucket-icon"></i>
+                        <span class="bucket-text">Kanepe maratonu film geceleri</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-paw bucket-icon"></i>
+                        <span class="bucket-text">Beraber evcil hayvan sahiplenmek</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="500">
+                    <div class="bucket-checkbox">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-umbrella-beach bucket-icon"></i>
+                        <span class="bucket-text">Gün batımı izlemek sahilde</span>
+                    </div>
+                </div>
+                
+                <div class="bucket-item" data-aos="fade-up" data-aos-delay="600">
+                    <div class="bucket-checkbox checked">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <div class="bucket-content">
+                        <i class="fas fa-heart bucket-icon"></i>
+                        <span class="bucket-text">Sonsuza dek birbirimizi sevmek</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="future-image">
+                <img src="images/04_suitcase_packing.png" alt="Gelecek hayalleri" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== STATISTICS ==================== -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">📊</span>
+                Sayılarla Aşkımız
+                <span class="title-decoration">📊</span>
+            </h2>
+            
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="zoom-in">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-heart"></i>
+                    </div>
+                    <span class="stat-number counter" data-target="288">0</span>
+                    <span class="stat-label">Gün Birlikte</span>
+                </div>
+                
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <span class="stat-number">10,000+</span>
+                    <span class="stat-label">Mesaj</span>
+                </div>
+                
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <span class="stat-number">500+</span>
+                    <span class="stat-label">Saat Görüşme</span>
+                </div>
+                
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <span class="stat-number infinity">∞</span>
+                    <span class="stat-label">Sevgi</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== COUNTDOWN ==================== -->
+    <section id="countdown" class="countdown-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-decoration">⏰</span>
+                Seni Göreceğim Güne Kadar
+                <span class="title-decoration">⏰</span>
+            </h2>
+            <p class="section-subtitle handwritten">Her saniye sana daha yakın</p>
+            
+            <div class="countdown-timer">
+                <div class="time-unit">
+                    <div class="time-card">
+                        <span class="time-number" id="countdown-days">00</span>
+                    </div>
+                    <span class="time-label">Gün</span>
+                </div>
+                <div class="time-separator">:</div>
+                <div class="time-unit">
+                    <div class="time-card">
+                        <span class="time-number" id="countdown-hours">00</span>
+                    </div>
+                    <span class="time-label">Saat</span>
+                </div>
+                <div class="time-separator">:</div>
+                <div class="time-unit">
+                    <div class="time-card">
+                        <span class="time-number" id="countdown-minutes">00</span>
+                    </div>
+                    <span class="time-label">Dakika</span>
+                </div>
+                <div class="time-separator">:</div>
+                <div class="time-unit">
+                    <div class="time-card">
+                        <span class="time-number" id="countdown-seconds">00</span>
+                    </div>
+                    <span class="time-label">Saniye</span>
+                </div>
+            </div>
+            
+            <p class="countdown-message handwritten">Sabırsızlıkla bekliyorum... 💕</p>
+            
+            <div class="countdown-image">
+                <img src="images/11_time_difference_clock.png" alt="Zaman" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FINAL MESSAGE ==================== -->
+    <section id="final" class="final-section">
+        <div class="final-background">
+            <img src="images/14_final_cinematic_together.png" alt="Sonsuza dek" class="final-bg-image">
+            <div class="final-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="final-content">
+                <div class="final-hearts" id="finalHearts"></div>
+                
+                <div class="final-message">
+                    <p class="final-text">
+                        Her mesafe geçici,<br>
+                        ama aşkımız sonsuza dek.<br>
+                        <br>
+                        Seni seviyorum,<br>
+                        bugün, yarın ve hep.
+                    </p>
+                    <p class="signature handwritten">- Özgür 💕</p>
+                </div>
+                
+                <button class="surprise-button" id="surpriseBtn">
+                    <i class="fas fa-gift"></i>
+                    <span>Sürpriz!</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== LIGHTBOX ==================== -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Kapat">&times;</button>
+        <button class="lightbox-prev" aria-label="Önceki">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="lightbox-next" aria-label="Sonraki">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="lightbox-content">
+            <img class="lightbox-image" src="" alt="">
+            <div class="lightbox-caption"></div>
+        </div>
+    </div>
+
+    <!-- ==================== HIDDEN MESSAGES ==================== -->
+    <div class="hidden-messages">
+        <button class="hidden-trigger" data-message="Şu an seni düşünüyorum 💕" style="top: 20%; left: 10%;"></button>
+        <button class="hidden-trigger" data-message="Gülümsemen tüm dünyamı aydınlatıyor ✨" style="top: 40%; right: 5%;"></button>
+        <button class="hidden-trigger" data-message="Seninle olmak için sabırsızlanıyorum 🌟" style="top: 60%; left: 15%;"></button>
+        <button class="hidden-trigger" data-message="Her km değer sana 🛤️💕" style="top: 80%; right: 10%;"></button>
+    </div>
+
+    <!-- ==================== SURPRISE POPUP ==================== -->
+    <div id="surprisePopup" class="surprise-popup">
+        <div class="surprise-content">
+            <p class="surprise-text"></p>
+        </div>
+    </div>
+
+    <!-- ==================== CONFETTI CONTAINER ==================== -->
+    <div id="confetti-container"></div>
+
+    <!-- ==================== SCRIPTS ==================== -->
+    <script src="script.js"></script>
+</body>
+</html>
